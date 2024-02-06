@@ -49,3 +49,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#Asegúrate de reemplazar "nombre_de_tu_wifi", "contraseña_de_tu_wifi", y "direccion_del_broker_mqtt" con los valores correspondientes de tu red Wi-Fi y tu servidor MQTT broker. Además, necesitarás las bibliotecas umqtt.simple en tu dispositivo para manejar las conexiones MQTT. Puedes copiarlas a tu dispositivo ESP8266 o ESP32.
+#Este código establece una conexión Wi-Fi, se conecta al servidor MQTT, se suscribe a un tema específico y publica mensajes en otro tema. Asegúrate de adaptar y expandir este código según tus necesidades específicas de aplicación y configuración de red.
